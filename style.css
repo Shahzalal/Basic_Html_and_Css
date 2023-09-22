@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.logo{
+    padding: 10px;
+}
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    list-style: none;
+    padding: 20px 14px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hero{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.about-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.about-img img{
+    height: 400px;
+    width: 300px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.about2{
+    display: flex;
+    padding: 20px 10px;
+    
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text p{
+    padding: 20px 10px;
+    line-height: 30px;
+    
+
+}
+
+.about h1{
+    text-align: center;
+    font-size: 2rem;
+    color: aquamarine;
+}
+
+.projects{
+    background-color: aliceblue;
+}
+.projects h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+.project-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 10px;
+}
+.project-list img{
+    border-radius: 10px;
+}
+
+.project-list ul li{
+    margin: 20px;
+} 
+
+.achievement{
+    background-color:rgb(19, 19, 19);
+    color: white;
+    padding-bottom: 10px;
+}
+
+.achievement h1{
+    text-align: center;
+    font-size: 2rem;
+    color: aquamarine;
+    padding-top: 10px;
+}
+
+.achi-list ul li{
+    margin: 20px 30%;
+    
+}
+
+.contact{
+    background-color: aliceblue;
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.form{
+    width: 20%;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    color: white;
+    margin: 20px auto;
+}
+.form form{
+    margin-top: 10px;
+}
+.fr-btn{
+    margin-bottom: 10px;
+}
+
+.footer-up{
+    background-color: aquamarine;
+    font-weight: bold;
+}
+.footer-up ul{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.footer-up ul li{
+    list-style: none;
+    padding: 25px 40px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+
+.footer p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
